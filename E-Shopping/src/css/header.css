@@ -1,0 +1,29 @@
+.header_icons {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.header_icons:hover {
+  cursor: pointer;
+}
+
+.header_logo {
+  width: 80px;
+  height: 60px;
+  border-radius: 45%;
+}
+
+.sourc_input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
