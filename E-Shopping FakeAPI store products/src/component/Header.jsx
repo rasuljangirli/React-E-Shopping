@@ -4,7 +4,6 @@ import { MdOutlineNightlight } from "react-icons/md";
 import "../css/header.css";
 // import Logo from "../images/logo.png";
 import { FaShoppingBasket } from "react-icons/fa";
-
 function Header() {
   const [icon, setIcon] = useState(true);
 
