@@ -10,7 +10,6 @@ function ProductList() {
   useEffect(() => {
     dispatch(getAllProducts());
   }, []);
-
   return (
     <div>
       <div>
