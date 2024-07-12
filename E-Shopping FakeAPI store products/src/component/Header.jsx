@@ -6,7 +6,6 @@ import "../css/header.css";
 import { FaShoppingBasket } from "react-icons/fa";
 function Header() {
   const [icon, setIcon] = useState(true);
-
   const uptadeIcon = () => {
     const headerContainer = document.getElementById("header_container");
     const headerLogoTextTwo = document.getElementById("heaader_logoText_two");
