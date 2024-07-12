@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 
 function Loading() {
   const { loading } = useSelector((store) => store.products);
-
   return (
     <Backdrop
       sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
