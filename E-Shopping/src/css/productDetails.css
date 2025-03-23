@@ -37,6 +37,7 @@
   font-weight: bold;
   transition: all 0.3s ease-in-out;
 }
+
 .product_container_two_section_button:hover {
   transform: scale(1.09);
   cursor: pointer;
